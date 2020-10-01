@@ -20,6 +20,11 @@ class Covid extends Component {
     const { data } = this.state;
     return (
       <div className={styles.container}>
+        <div>
+          <a href="https://github.com/brandmadis/react-covid">
+            https://github.com/brandmadis/react-covid
+          </a>
+        </div>
         <Cards data={data} />
         <CountryPicker handleCountryChange={this.handleCountryChange} />
         <Chart />
